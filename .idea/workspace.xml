@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/ArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/CharArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/ObjectCopyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/StudentSubjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/TwoDimensionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch02/Array.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2JFSAlZKxP3GlNACtNZYiLwbHSo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,9 +45,46 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="애플리케이션.StudentSubjectTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch02.ArrayListTest" />
+      <module name="Java_Study_Web_Develop_Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part2_Ch02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentSubjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch02.StudentSubjectTest" />
+      <module name="Java_Study_Web_Develop_Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part2_Ch02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.StudentSubjectTest" />
+        <item itemvalue="애플리케이션.ArrayListTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
@@ -31,7 +93,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671672196838</updated>
+      <workItem from="1671672198080" duration="4416000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
