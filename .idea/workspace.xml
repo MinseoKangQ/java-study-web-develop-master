@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/CustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/VIPCustomer.java" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch03&#10;01 객체 간의 상속은 어떤 의미일까&#10;02 상속을 활용한 멤버쉽 클래스 구현하기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/VIPCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/VIPCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +33,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="애플리케이션.CustomerTest">
     <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part2_Ch02.ArrayListTest" />
@@ -99,7 +99,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1671672196838</updated>
-      <workItem from="1671672198080" duration="7069000" />
+      <workItem from="1671672198080" duration="10036000" />
+      <workItem from="1671758293744" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -108,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671677448258</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ch03&#10;01 객체 간의 상속은 어떤 의미일까&#10;02 상속을 활용한 멤버쉽 클래스 구현하기">
+      <created>1671684062090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671684062090</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,6 +135,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램" />
+    <MESSAGE value="Ch03&#10;01 객체 간의 상속은 어떤 의미일까&#10;02 상속을 활용한 멤버쉽 클래스 구현하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch03&#10;01 객체 간의 상속은 어떤 의미일까&#10;02 상속을 활용한 멤버쉽 클래스 구현하기" />
   </component>
 </project>

@@ -12,6 +12,23 @@ public class Customer {
     int bonusPoint;
     double bonusRatio;
 
+//    public Customer() {
+//        customerGrade = "SILVER";
+//        bonusRatio = 0.01;
+//
+//        System.out.println("Customer() called");
+//    }
+
+    public Customer(int customerID, String customerName) {
+        this.customerID = customerID;
+        this.customerName = customerName;
+
+        customerGrade = "SILVER";
+        bonusRatio = 0.01;
+
+        System.out.println("Customer(int, string) called");
+    }
+
     public int getCustomerID() {
         return customerID;
     }
@@ -34,11 +51,6 @@ public class Customer {
 
     public void setCustomerGrade(String customerGrade) {
         this.customerGrade = customerGrade;
-    }
-
-    public Customer() {
-        customerGrade = "SILVER";
-        bonusRatio = 0.01;
     }
 
     public int calcPrice(int price) {
