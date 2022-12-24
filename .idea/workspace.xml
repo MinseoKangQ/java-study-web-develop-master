@@ -1,16 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch03&#10;03 상속에서 클래스 생성 과정과 형 변환&#10;04 메서드 재정의하기(overriding)">
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/ComputerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/Desktop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/GoldCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/MyNoteBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/NoteBook.java" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch03&#10;05 메서드 재정의와 가상 메서드 원리&#10;06 다형성과 다형성을 사용하는 이유&#10;07 상속은 언제 사용 할까&#10;08 다운 캐스팅과 instanceof&#10;09 추상 클래스의 의미와 구현하는 방법">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/AICar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/CarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/CompleteCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/ManulCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_13/domain/userinfo/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_13/domain/userinfo/dao/UserInfoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_13/domain/userinfo/dao/mysql/UserInfoMySqlDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_13/domain/userinfo/dao/oracle/UserInfoOracleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_13/userInfo/web/UserInfoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_14/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_14/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_14/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_14/CompleteCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_15/_1/Buy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_15/_1/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_15/_1/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_15/_1/Sell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_15/_2/BookShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_15/_2/BookShelfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_15/_2/Queue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/_15/_2/Shelf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/AnimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/ComputerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/CustomerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/Desktop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/Desktop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/GoldCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/GoldCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/MyNoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/MyNoteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/NoteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/NoteBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/VIPCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/_01_12/VIPCustomer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +49,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -38,36 +68,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kangminseo/Documents/Java_Study_Web_Develop_Master/src/Part2_Ch03/_14",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="애플리케이션.ComputerTest">
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch03.AnimalTest" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Part2_Ch03/_14" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Part2_Ch03" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Part2_Ch03/Ch13" />
+      <recent name="$PROJECT_DIR$/src/Part2_Ch03" />
+      <recent name="$PROJECT_DIR$/src/Part2_Ch03/Ch13/userInfo/web" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Part2_Ch03._14" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.BookShelfTest">
+    <configuration name="BookShelfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._15._2.BookShelfTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch02.ArrayListTest" />
-      <module name="Java_Study_Web_Develop_Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part2_Ch02.*" />
+          <option name="PATTERN" value="Part2_Ch03._15._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,11 +112,11 @@
       </method>
     </configuration>
     <configuration name="ComputerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch03.ComputerTest" />
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._01_12.ComputerTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch03.*" />
+          <option name="PATTERN" value="Part2_Ch03._01_12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch03.CustomerTest" />
+    <configuration name="Part2_Ch03._14.CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._14.CalculatorTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch03.*" />
+          <option name="PATTERN" value="Part2_Ch03._14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +137,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentSubjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch02.StudentSubjectTest" />
+    <configuration name="Part2_Ch03._15._15_1.CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._15._15_1.CustomerTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch02.*" />
+          <option name="PATTERN" value="Part2_Ch03._15._15_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInfoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._13.userInfo.web.UserInfoClient" />
+      <module name="Java_Study_Web_Develop_Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part2_Ch03._13.userInfo.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +165,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.ComputerTest" />
-        <item itemvalue="애플리케이션.AnimalTest" />
-        <item itemvalue="애플리케이션.CustomerTest" />
-        <item itemvalue="애플리케이션.StudentSubjectTest" />
-        <item itemvalue="애플리케이션.ArrayListTest" />
+        <item itemvalue="애플리케이션.BookShelfTest" />
+        <item itemvalue="애플리케이션.Part2_Ch03._15._15_1.CustomerTest" />
+        <item itemvalue="애플리케이션.Part2_Ch03._14.CalculatorTest" />
+        <item itemvalue="애플리케이션.Part2_Ch03._13.userInfo.web.UserInfoClient" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +181,8 @@
       <option name="presentableId" value="Default" />
       <updated>1671672196838</updated>
       <workItem from="1671672198080" duration="10036000" />
-      <workItem from="1671758293744" duration="5537000" />
+      <workItem from="1671758293744" duration="12345000" />
+      <workItem from="1671855041986" duration="2157000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -156,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671759007975</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Ch03&#10;05 메서드 재정의와 가상 메서드 원리&#10;06 다형성과 다형성을 사용하는 이유&#10;07 상속은 언제 사용 할까&#10;08 다운 캐스팅과 instanceof&#10;09 추상 클래스의 의미와 구현하는 방법">
+      <created>1671768292724</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671768292724</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +233,7 @@
     <MESSAGE value="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램" />
     <MESSAGE value="Ch03&#10;01 객체 간의 상속은 어떤 의미일까&#10;02 상속을 활용한 멤버쉽 클래스 구현하기" />
     <MESSAGE value="Ch03&#10;03 상속에서 클래스 생성 과정과 형 변환&#10;04 메서드 재정의하기(overriding)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch03&#10;03 상속에서 클래스 생성 과정과 형 변환&#10;04 메서드 재정의하기(overriding)" />
+    <MESSAGE value="Ch03&#10;05 메서드 재정의와 가상 메서드 원리&#10;06 다형성과 다형성을 사용하는 이유&#10;07 상속은 언제 사용 할까&#10;08 다운 캐스팅과 instanceof&#10;09 추상 클래스의 의미와 구현하는 방법" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch03&#10;05 메서드 재정의와 가상 메서드 원리&#10;06 다형성과 다형성을 사용하는 이유&#10;07 상속은 언제 사용 할까&#10;08 다운 캐스팅과 instanceof&#10;09 추상 클래스의 의미와 구현하는 방법" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package Part2_Ch03;
+package Part2_Ch03._01_12;
 
 // 우수 고객 클래스
 public class VIPCustomer extends Customer {
