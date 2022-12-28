@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch03 &amp; 파일 구조 정리&#10;10 추상 클래스를 활용한 템플릿 메서드 패턴&#10;11 구현 코드가 없는 인터페이스&#10;12 인터페이스는 왜 사용하는가&#10;13 프로그램에서 인터페이스의 역할과 다형성&#10;14 인터페이스의 여러가지 요소&#10;15 여러 인터페이스 구현하기, 인터페이스의 상속">
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch02/Part2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part2_Ch02.md added">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch03/Part2_Ch03.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Part2_Ch02/Part2_Ch02.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch02/Part2_Ch02.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +147,7 @@
       <workItem from="1671672198080" duration="10036000" />
       <workItem from="1671758293744" duration="12345000" />
       <workItem from="1671855041986" duration="2583000" />
-      <workItem from="1672192021404" duration="1054000" />
+      <workItem from="1672192021404" duration="1373000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -184,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671857427132</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Part2_Ch02.md added">
+      <created>1672193207625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672193207625</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +214,7 @@
     <MESSAGE value="Ch03&#10;03 상속에서 클래스 생성 과정과 형 변환&#10;04 메서드 재정의하기(overriding)" />
     <MESSAGE value="Ch03&#10;05 메서드 재정의와 가상 메서드 원리&#10;06 다형성과 다형성을 사용하는 이유&#10;07 상속은 언제 사용 할까&#10;08 다운 캐스팅과 instanceof&#10;09 추상 클래스의 의미와 구현하는 방법" />
     <MESSAGE value="Ch03 &amp; 파일 구조 정리&#10;10 추상 클래스를 활용한 템플릿 메서드 패턴&#10;11 구현 코드가 없는 인터페이스&#10;12 인터페이스는 왜 사용하는가&#10;13 프로그램에서 인터페이스의 역할과 다형성&#10;14 인터페이스의 여러가지 요소&#10;15 여러 인터페이스 구현하기, 인터페이스의 상속" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch03 &amp; 파일 구조 정리&#10;10 추상 클래스를 활용한 템플릿 메서드 패턴&#10;11 구현 코드가 없는 인터페이스&#10;12 인터페이스는 왜 사용하는가&#10;13 프로그램에서 인터페이스의 역할과 다형성&#10;14 인터페이스의 여러가지 요소&#10;15 여러 인터페이스 구현하기, 인터페이스의 상속" />
+    <MESSAGE value="Part2_Ch02.md added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part2_Ch02.md added" />
   </component>
 </project>
