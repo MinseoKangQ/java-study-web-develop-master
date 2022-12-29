@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part2_Ch03.md added">
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part2_Ch03.md edited">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_01/BookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_02/EqualsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_02/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_03/StringBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_03/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_03/TextBlockTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_04/ClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_04/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_04/StringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part2_Ch03/Part2_Ch03.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch03/Part2_Ch03.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +51,8 @@
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,13 +72,13 @@
       <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.BookShelfTest">
-    <configuration name="BookShelfTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._15._2.BookShelfTest" />
+  <component name="RunManager" selected="애플리케이션.ClassTest">
+    <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._04.ClassTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch03._15._2.*" />
+          <option name="PATTERN" value="Part2_Ch04._04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._01_12.ComputerTest" />
+    <configuration name="Part2_Ch04._04.StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._04.StringTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch03._01_12.*" />
+          <option name="PATTERN" value="Part2_Ch04._04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part2_Ch03._14.CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._14.CalculatorTest" />
+    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._03.StringBuilderTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch03._14.*" />
+          <option name="PATTERN" value="Part2_Ch04._03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part2_Ch03._15._15_1.CustomerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._15._15_1.CustomerTest" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._03.StringTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch03._15._15_1.*" />
+          <option name="PATTERN" value="Part2_Ch04._03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInfoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch03._13.userInfo.web.UserInfoClient" />
+    <configuration name="TextBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._03.TextBlockTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch03._13.userInfo.web.*" />
+          <option name="PATTERN" value="Part2_Ch04._03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,9 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.BookShelfTest" />
-        <item itemvalue="애플리케이션.Part2_Ch03._15._15_1.CustomerTest" />
-        <item itemvalue="애플리케이션.Part2_Ch03._14.CalculatorTest" />
+        <item itemvalue="애플리케이션.ClassTest" />
+        <item itemvalue="애플리케이션.Part2_Ch04._04.StringTest" />
+        <item itemvalue="애플리케이션.TextBlockTest" />
+        <item itemvalue="애플리케이션.StringBuilderTest" />
+        <item itemvalue="애플리케이션.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +159,8 @@
       <workItem from="1671672198080" duration="10036000" />
       <workItem from="1671758293744" duration="12345000" />
       <workItem from="1671855041986" duration="2583000" />
-      <workItem from="1672192021404" duration="10667000" />
+      <workItem from="1672192021404" duration="11074000" />
+      <workItem from="1672276186580" duration="4212000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -205,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672194998119</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Part2_Ch03.md edited">
+      <created>1672207653722</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672207653722</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +251,7 @@
     <MESSAGE value="Part2_Ch02.md added" />
     <MESSAGE value="Part2_Ch02.md edited" />
     <MESSAGE value="Part2_Ch03.md added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part2_Ch03.md added" />
+    <MESSAGE value="Part2_Ch03.md edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part2_Ch03.md edited" />
   </component>
 </project>
