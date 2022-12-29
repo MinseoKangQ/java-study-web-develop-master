@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part2_Ch03.md edited">
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_01/BookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_02/EqualsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_02/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_03/StringBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_03/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_03/TextBlockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_04/ClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_04/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/_04/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch04&#10;01 Object 클래스 - 모든 클래스의 최상위 클래스&#10;02 Object 클래스의 메서드 활용&#10;03 String, StringBuilder, StringBuffer 클래스, text block&#10;04 클래스 사용하기">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_03/MyArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_03/MyArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_04/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_04/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_04/MyListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_05/MyArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_05/MyArrayStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_06/MyLinkedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ClassTest">
+  <component name="RunManager" selected="애플리케이션.MyListQueueTest">
     <configuration name="ClassTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part2_Ch04._04.ClassTest" />
       <module name="Java_Study_Web_Develop_Master" />
@@ -86,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part2_Ch04._04.StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._04.StringTest" />
+    <configuration name="MyArrayStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._05.MyArrayStackTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch04._04.*" />
+          <option name="PATTERN" value="Part2_Ch05._05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._03.StringBuilderTest" />
+    <configuration name="MyArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._03.MyArrayTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch04._03.*" />
+          <option name="PATTERN" value="Part2_Ch05._03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._03.StringTest" />
+    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._04.MyLinkedListTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch04._03.*" />
+          <option name="PATTERN" value="Part2_Ch05._04.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextBlockTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch04._03.TextBlockTest" />
+    <configuration name="MyListQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._06.MyListQueueTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch04._03.*" />
+          <option name="PATTERN" value="Part2_Ch05._06.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MyListQueueTest" />
+        <item itemvalue="애플리케이션.MyArrayStackTest" />
+        <item itemvalue="애플리케이션.Part2_Ch05._04.MyLinkedListTest" />
+        <item itemvalue="애플리케이션.Part2_Ch05._03.MyArrayTest" />
         <item itemvalue="애플리케이션.ClassTest" />
-        <item itemvalue="애플리케이션.Part2_Ch04._04.StringTest" />
-        <item itemvalue="애플리케이션.TextBlockTest" />
-        <item itemvalue="애플리케이션.StringBuilderTest" />
-        <item itemvalue="애플리케이션.StringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +158,7 @@
       <workItem from="1671758293744" duration="12345000" />
       <workItem from="1671855041986" duration="2583000" />
       <workItem from="1672192021404" duration="11074000" />
-      <workItem from="1672276186580" duration="4212000" />
+      <workItem from="1672276186580" duration="9112000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -225,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672207653722</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ch04&#10;01 Object 클래스 - 모든 클래스의 최상위 클래스&#10;02 Object 클래스의 메서드 활용&#10;03 String, StringBuilder, StringBuffer 클래스, text block&#10;04 클래스 사용하기">
+      <created>1672280555939</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672280555939</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +257,7 @@
     <MESSAGE value="Part2_Ch02.md edited" />
     <MESSAGE value="Part2_Ch03.md added" />
     <MESSAGE value="Part2_Ch03.md edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part2_Ch03.md edited" />
+    <MESSAGE value="Ch04&#10;01 Object 클래스 - 모든 클래스의 최상위 클래스&#10;02 Object 클래스의 메서드 활용&#10;03 String, StringBuilder, StringBuffer 클래스, text block&#10;04 클래스 사용하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch04&#10;01 Object 클래스 - 모든 클래스의 최상위 클래스&#10;02 Object 클래스의 메서드 활용&#10;03 String, StringBuilder, StringBuffer 클래스, text block&#10;04 클래스 사용하기" />
   </component>
 </project>
