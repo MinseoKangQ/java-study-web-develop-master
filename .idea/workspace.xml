@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기">
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_11/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_11/MemberArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_11/MemberArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_12/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_12/MemberArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_12/MemberArrayListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_13/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_13/MemberHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_13/MemberHashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_14/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_14/MemberTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_14/MemberTreeSetTest.java" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;11 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용&#10;12 Collection 요소를 순회하는 Iterator&#10;13 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용&#10;14 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_15/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_15/MemberHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_15/MemberHashMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,12 +64,13 @@
       <recent name="$PROJECT_DIR$/src/Part2_Ch03/Ch13/userInfo/web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Part2_Ch05._15" />
       <recent name="Part2_Ch05._08" />
       <recent name="Part2_Ch05._07.NonGeneric" />
       <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MemberTreeSetTest">
+  <component name="RunManager" selected="애플리케이션.MemberHashMapTest">
     <configuration name="GenericMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part2_Ch05._09.GenericMethod" />
       <module name="Java_Study_Web_Develop_Master" />
@@ -92,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericPrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._07.Generic.GenericPrinterTest" />
+    <configuration name="MemberArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._11.MemberArrayListTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._07.Generic.*" />
+          <option name="PATTERN" value="Part2_Ch05._11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._11.MemberArrayListTest" />
+    <configuration name="MemberHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._15.MemberHashMapTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._11.*" />
+          <option name="PATTERN" value="Part2_Ch05._15.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MemberHashMapTest" />
         <item itemvalue="애플리케이션.MemberTreeSetTest" />
         <item itemvalue="애플리케이션.Part2_Ch05._13.MemberHashSetTest" />
         <item itemvalue="애플리케이션.MemberArrayListTest" />
         <item itemvalue="애플리케이션.GenericMethod" />
-        <item itemvalue="애플리케이션.GenericPrinterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +159,7 @@
       <workItem from="1671855041986" duration="2583000" />
       <workItem from="1672192021404" duration="11074000" />
       <workItem from="1672276186580" duration="12867000" />
-      <workItem from="1672363766615" duration="4384000" />
+      <workItem from="1672363766615" duration="6462000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -253,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672295496394</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Ch05&#10;11 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용&#10;12 Collection 요소를 순회하는 Iterator&#10;13 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용&#10;14 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기">
+      <created>1672368301548</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672368301548</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +282,7 @@
     <MESSAGE value="Ch04&#10;01 Object 클래스 - 모든 클래스의 최상위 클래스&#10;02 Object 클래스의 메서드 활용&#10;03 String, StringBuilder, StringBuffer 클래스, text block&#10;04 클래스 사용하기" />
     <MESSAGE value="Ch05&#10;03 배열 구현하기&#10;04 연결리스트 구현하기&#10;05 Stack 구현하기&#10;06 Queue 구현하기" />
     <MESSAGE value="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기" />
+    <MESSAGE value="Ch05&#10;11 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용&#10;12 Collection 요소를 순회하는 Iterator&#10;13 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용&#10;14 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;11 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용&#10;12 Collection 요소를 순회하는 Iterator&#10;13 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용&#10;14 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기" />
   </component>
 </project>
