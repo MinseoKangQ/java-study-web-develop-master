@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;03 배열 구현하기&#10;04 연결리스트 구현하기&#10;05 Stack 구현하기&#10;06 Queue 구현하기">
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/Generic/GenericPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/Generic/GenericPrinterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/Generic/Plastic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/Generic/Powder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/NonGeneric/Plastic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/NonGeneric/Powder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/NonGeneric/ThreeDPrinter1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/NonGeneric/ThreeDPrinter2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/NonGeneric/ThreeDPrinter3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_07/NonGeneric/ThreeDPrinterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_08/GenericPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_08/GenericPrinterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_08/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_08/Plastic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_08/Powder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_09/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_09/Point.java" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_11/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_11/MemberArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_11/MemberArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_12/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_12/MemberArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_12/MemberArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_13/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_13/MemberHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_13/MemberHashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_14/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_14/MemberTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_14/MemberTreeSetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kangminseo/Documents/Java_Study_Web_Develop_Master/src/Part2_Ch05/_08",
+    "last_opened_file_path": "/Users/kangminseo/Documents/Java_Study_Web_Develop_Master/src/Part2_Ch05/_14",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
@@ -64,11 +59,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Part2_Ch05/_14" />
+      <recent name="$PROJECT_DIR$/src/Part2_Ch05" />
+      <recent name="$PROJECT_DIR$/src/Part2_Ch05/_13" />
+      <recent name="$PROJECT_DIR$/src/Part2_Ch05/_12" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch05/_08" />
-      <recent name="$PROJECT_DIR$/src/Part2_Ch05/_07/Generic" />
-      <recent name="$PROJECT_DIR$/src/Part2_Ch03/_14" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/Part2_Ch03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -83,7 +78,7 @@
       <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.GenericMethod">
+  <component name="RunManager" selected="애플리케이션.MemberTreeSetTest">
     <configuration name="GenericMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part2_Ch05._09.GenericMethod" />
       <module name="Java_Study_Web_Develop_Master" />
@@ -110,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._05.MyArrayStackTest" />
+    <configuration name="MemberArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._11.MemberArrayListTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._05.*" />
+          <option name="PATTERN" value="Part2_Ch05._11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._04.MyLinkedListTest" />
+    <configuration name="MemberHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._13.MemberHashSetTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._04.*" />
+          <option name="PATTERN" value="Part2_Ch05._13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyListQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._06.MyListQueueTest" />
+    <configuration name="MemberTreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._14.MemberTreeSetTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._06.*" />
+          <option name="PATTERN" value="Part2_Ch05._14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.MemberTreeSetTest" />
+        <item itemvalue="애플리케이션.Part2_Ch05._13.MemberHashSetTest" />
+        <item itemvalue="애플리케이션.MemberArrayListTest" />
         <item itemvalue="애플리케이션.GenericMethod" />
         <item itemvalue="애플리케이션.GenericPrinterTest" />
-        <item itemvalue="애플리케이션.MyListQueueTest" />
-        <item itemvalue="애플리케이션.MyArrayStackTest" />
-        <item itemvalue="애플리케이션.Part2_Ch05._04.MyLinkedListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +166,8 @@
       <workItem from="1671758293744" duration="12345000" />
       <workItem from="1671855041986" duration="2583000" />
       <workItem from="1672192021404" duration="11074000" />
-      <workItem from="1672276186580" duration="12129000" />
+      <workItem from="1672276186580" duration="12867000" />
+      <workItem from="1672363766615" duration="4384000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -250,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672291905825</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기">
+      <created>1672295496394</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672295496394</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +282,7 @@
     <MESSAGE value="Part2_Ch03.md edited" />
     <MESSAGE value="Ch04&#10;01 Object 클래스 - 모든 클래스의 최상위 클래스&#10;02 Object 클래스의 메서드 활용&#10;03 String, StringBuilder, StringBuffer 클래스, text block&#10;04 클래스 사용하기" />
     <MESSAGE value="Ch05&#10;03 배열 구현하기&#10;04 연결리스트 구현하기&#10;05 Stack 구현하기&#10;06 Queue 구현하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;03 배열 구현하기&#10;04 연결리스트 구현하기&#10;05 Stack 구현하기&#10;06 Queue 구현하기" />
+    <MESSAGE value="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기" />
   </component>
 </project>
