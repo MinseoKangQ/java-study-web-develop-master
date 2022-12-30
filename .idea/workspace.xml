@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;11 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용&#10;12 Collection 요소를 순회하는 Iterator&#10;13 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용&#10;14 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기">
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_15/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_15/MemberHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch05/_15/MemberHashMapTest.java" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;15 쌍으로 자료를 관리하는 Map 인터페이스를 구현한 클래스와 그 활용">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_00/InnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_01/AnnonumousInnerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_02/Add.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_02/AddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_03/MyNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_03/MyNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_04/StringConcat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_04/StringConcatImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_04/StringConcatTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_05/ArrayListStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_05/IntArrayStreamTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kangminseo/Documents/Java_Study_Web_Develop_Master/src/Part2_Ch05/_14",
+    "last_opened_file_path": "/Users/kangminseo/Documents/Java_Study_Web_Develop_Master/src/Part2_Ch06/_03",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
@@ -50,11 +58,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Part2_Ch06/_03" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch05/_14" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch05" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch05/_13" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch05/_12" />
-      <recent name="$PROJECT_DIR$/src/Part2_Ch05/_08" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -70,13 +78,13 @@
       <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.MemberHashMapTest">
-    <configuration name="GenericMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._09.GenericMethod" />
+  <component name="RunManager" selected="애플리케이션.ArrayListStreamTest">
+    <configuration name="AddTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._02.AddTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._09.*" />
+          <option name="PATTERN" value="Part2_Ch06._02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._11.MemberArrayListTest" />
+    <configuration name="AnnonumousInnerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._01.AnnonumousInnerTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._11.*" />
+          <option name="PATTERN" value="Part2_Ch06._01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberHashMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._15.MemberHashMapTest" />
+    <configuration name="ArrayListStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._05.ArrayListStreamTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._15.*" />
+          <option name="PATTERN" value="Part2_Ch06._05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberHashSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._13.MemberHashSetTest" />
+    <configuration name="IntArrayStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._05.IntArrayStreamTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._13.*" />
+          <option name="PATTERN" value="Part2_Ch06._05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberTreeSetTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._14.MemberTreeSetTest" />
+    <configuration name="MyNumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._03.MyNumberTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._14.*" />
+          <option name="PATTERN" value="Part2_Ch06._03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.MemberHashMapTest" />
-        <item itemvalue="애플리케이션.MemberTreeSetTest" />
-        <item itemvalue="애플리케이션.Part2_Ch05._13.MemberHashSetTest" />
-        <item itemvalue="애플리케이션.MemberArrayListTest" />
-        <item itemvalue="애플리케이션.GenericMethod" />
+        <item itemvalue="애플리케이션.ArrayListStreamTest" />
+        <item itemvalue="애플리케이션.IntArrayStreamTest" />
+        <item itemvalue="애플리케이션.MyNumberTest" />
+        <item itemvalue="애플리케이션.AddTest" />
+        <item itemvalue="애플리케이션.AnnonumousInnerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +167,7 @@
       <workItem from="1671855041986" duration="2583000" />
       <workItem from="1672192021404" duration="11074000" />
       <workItem from="1672276186580" duration="12867000" />
-      <workItem from="1672363766615" duration="6462000" />
+      <workItem from="1672363766615" duration="13551000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -252,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672368301548</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ch05&#10;15 쌍으로 자료를 관리하는 Map 인터페이스를 구현한 클래스와 그 활용">
+      <created>1672373893828</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672373893828</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +298,7 @@
     <MESSAGE value="Ch05&#10;03 배열 구현하기&#10;04 연결리스트 구현하기&#10;05 Stack 구현하기&#10;06 Queue 구현하기" />
     <MESSAGE value="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기" />
     <MESSAGE value="Ch05&#10;11 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용&#10;12 Collection 요소를 순회하는 Iterator&#10;13 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용&#10;14 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;11 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용&#10;12 Collection 요소를 순회하는 Iterator&#10;13 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용&#10;14 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기" />
+    <MESSAGE value="Ch05&#10;15 쌍으로 자료를 관리하는 Map 인터페이스를 구현한 클래스와 그 활용" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;15 쌍으로 자료를 관리하는 Map 인터페이스를 구현한 클래스와 그 활용" />
   </component>
 </project>
