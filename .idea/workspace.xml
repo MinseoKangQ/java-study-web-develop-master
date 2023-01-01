@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;15 쌍으로 자료를 관리하는 Map 인터페이스를 구현한 클래스와 그 활용">
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_00/InnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_01/AnnonumousInnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_02/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_02/AddTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_03/MyNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_03/MyNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_04/StringConcat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_04/StringConcatImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_04/StringConcatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_05/ArrayListStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_05/IntArrayStreamTest.java" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch06&#10;00 여러 내부클래스의 정의와 유형&#10;01 익명 내부 클래스의 응용&#10;02 함수형 프로그래밍과 람다식 문법&#10;03 함수형 인터페이스와 람다식 구현하여 사용하기&#10;04 객체지향 프로그래밍 방식과 람다식 구현 방식의 비교&#10;05 스트림">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch04/Part2_Ch04.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/kangminseo/Documents/Java_Study_Web_Develop_Master/src/Part2_Ch06/_03",
+    "last_opened_file_path": "/Users/kangminseo/Documents/Java_Study_Web_Develop_Master/src/Part2_Ch04",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
@@ -58,11 +48,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Part2_Ch04" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch06/_03" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch05/_14" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch05" />
       <recent name="$PROJECT_DIR$/src/Part2_Ch05/_13" />
-      <recent name="$PROJECT_DIR$/src/Part2_Ch05/_12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -167,7 +157,8 @@
       <workItem from="1671855041986" duration="2583000" />
       <workItem from="1672192021404" duration="11074000" />
       <workItem from="1672276186580" duration="12867000" />
-      <workItem from="1672363766615" duration="13551000" />
+      <workItem from="1672363766615" duration="14332000" />
+      <workItem from="1672582872380" duration="1494000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -267,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672373893828</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Ch06&#10;00 여러 내부클래스의 정의와 유형&#10;01 익명 내부 클래스의 응용&#10;02 함수형 프로그래밍과 람다식 문법&#10;03 함수형 인터페이스와 람다식 구현하여 사용하기&#10;04 객체지향 프로그래밍 방식과 람다식 구현 방식의 비교&#10;05 스트림">
+      <created>1672387898363</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672387898363</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,6 +297,7 @@
     <MESSAGE value="Ch05&#10;07 무엇이든 담을 수 있는 제네릭 프로그래밍&#10;08 T extends 클래스 사용하기&#10;09 제네릭 메서드 활용하기" />
     <MESSAGE value="Ch05&#10;11 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용&#10;12 Collection 요소를 순회하는 Iterator&#10;13 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용&#10;14 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기" />
     <MESSAGE value="Ch05&#10;15 쌍으로 자료를 관리하는 Map 인터페이스를 구현한 클래스와 그 활용" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;15 쌍으로 자료를 관리하는 Map 인터페이스를 구현한 클래스와 그 활용" />
+    <MESSAGE value="Ch06&#10;00 여러 내부클래스의 정의와 유형&#10;01 익명 내부 클래스의 응용&#10;02 함수형 프로그래밍과 람다식 문법&#10;03 함수형 인터페이스와 람다식 구현하여 사용하기&#10;04 객체지향 프로그래밍 방식과 람다식 구현 방식의 비교&#10;05 스트림" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch06&#10;00 여러 내부클래스의 정의와 유형&#10;01 익명 내부 클래스의 응용&#10;02 함수형 프로그래밍과 람다식 문법&#10;03 함수형 인터페이스와 람다식 구현하여 사용하기&#10;04 객체지향 프로그래밍 방식과 람다식 구현 방식의 비교&#10;05 스트림" />
   </component>
 </project>
