@@ -92,7 +92,7 @@
 
 <br>
 
-<h3> 06. 큐(Queue) 구현하기</h3>
+<h3>06. 큐(Queue) 구현하기</h3>
 
 * Queue의 특징
 
@@ -105,3 +105,100 @@
     * 콜 센터의 문의 전화, 메세지 큐 등에 활용됨
 
     * jdk 클래스 : <u>ArrayList</u>
+
+<br>
+
+<h3>07. 무엇이든 담을 수 있는 제네릭(Generic) 프로그래밍</h3>
+
+* 제네릭 자료형 정의
+
+    * 클래스에서 사용하는 변수의 자료형이 여러 개 일 가능성, 해당 메서드는 동일한 경우, 클래스의 자료형을 특정하지 않고 추후 해당 클래스를 사용할 때 지정할 수 있도록 선언하는 것
+
+    * 실제 사용되는 자료형 변환은 컴파일러에 의해 검증됨 -> 안정적임
+
+    * 컬렉션 프레임워크에서 많이 사용됨
+
+    * 자료형 매개변수 T(=type parameter) : 이 클래스를 사용하는 시점에 실제 사용할 자료형 지정, static 변수 사용 불가능
+
+    * E(=element), K(=key), V(=value)
+
+
+ ```
+public class GenericPrinter<T> { // GenericPrinter은 제네릭 자료형
+    
+    private T material;
+    
+    public void setMaterial(T material) { 
+        this.material = material;
+    }
+    
+    public T getMaterial() {
+        return material;
+    }
+    
+    public String toString() {
+        return material.toString();
+    }
+    
+}
+ ```
+
+<br>
+
+* 다이아몬드 연산자 <>
+
+    * 다이아몬드 연산자 내부에서 자료형 생략 가능
+
+    * 제네릭에서 자료형 추론 (자바 10 이후)
+    
+    * 사용 예시
+
+```
+ArrayList list = new ArrayList<>();
+
+ArrayList list = new ArrayList()
+=> var list = new ArrayList();
+```
+
+<br>
+
+
+<h3>08. T extends 클래스 사용하기</h3>
+
+* 상위 클래스의 필요성
+
+    * T 자료형의 범위 제한
+
+    * 상위 클래스에서 선언/정의하는 메서드 활용 가능
+
+    * 상속을 받지 않으면 T는 Object로 변환된어 Object 클래스가 기본으로 제공하는 메서드만 사용 가능
+
+<br>
+
+<h3>09. 제네릭 메서드 활용하기</h3>
+
+* 제네릭 메서드란?
+    
+    * 자료형 매개변수를 메서드의 매개변수나 반환 값으로 가지는 메서드는 자료형 매개 변수가 하나 이상인 경우도 존재
+    
+    * 제네릭 클래스가 아니어도 내부에 제네릭 메서드 구현하여 사용 가능
+
+    * public <자료형 매개 변수> 반환형 메서드 이름(자료형 매개변수..) {}
+
+```
+public class Point<T, V> {
+
+    T x; V y;
+    
+    Point(T x, V y) {
+        this.x = x;
+        this.y = y;
+    }
+    
+    public T getX() { return x; }
+    public V getY() { return y; }
+    
+}
+```
+
+<br>
