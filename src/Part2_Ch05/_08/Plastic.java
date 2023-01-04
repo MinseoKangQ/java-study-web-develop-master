@@ -8,7 +8,7 @@ public class Plastic extends Material {
 
     @Override
     public void doPrinting() {
-
+        System.out.println("Plastic Printing");
     }
 
 }
