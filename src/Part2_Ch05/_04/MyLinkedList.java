@@ -90,8 +90,7 @@ public class MyLinkedList {
         return tempNode;
     }
 
-    public String getElement(int position)
-    {
+    public String getElement(int position) {
         int i;
         MyListNode tempNode = head;
 
@@ -100,15 +99,14 @@ public class MyLinkedList {
             return new String("error");
         }
 
-        if(position == 0){  //맨 인 경우
-
+        if(position == 0){  // 맨 앞인 경우
             return head.getData();
         }
 
         for(i=0; i<position; i++){
             tempNode = tempNode.next;
-
         }
+
         return tempNode.getData();
     }
 
