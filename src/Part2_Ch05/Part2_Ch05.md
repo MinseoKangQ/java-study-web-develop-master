@@ -202,3 +202,205 @@ public class Point<T, V> {
 ```
 
 <br>
+
+<h3>10. 자바에서 제공되는 자료구조 구현 클래스들 - 컬렉션 프레임워크</h3>
+
+* 컬렉션 프레임워크
+
+    * 프로그램 구현에 필요한 자료구조를 구현해 놓은 JDK 라이브러리
+
+    * java.util 패키지에 구현되어 있음
+
+    * 개발에 소요되는 시간을 절약하며 최적화 된 알고리즘 사용 가능
+
+    * 구현 클래스와 인터페이스의 활용에 대한 이해 필요
+
+    * ArrayList, Vector, LinkedList, Stack, Queue ⊂ List
+
+    * HashSet, TreeSet ⊂ Set
+
+    * List, Set ⊂ Collection
+
+    * Properties ⊂ Hashtable
+
+    * Hashtable, HashMap, TreeMap ⊂ Map
+
+<br>
+
+* Collection 인터페이스
+
+    * 하나의 객체를 관리하기 위한 메서드가 선언된 인터페이스
+
+<br>
+
+* List 인터페이스
+
+    * 객체를 순서에 따라 저장하고 관리하는데 필요한 메서드가 선언된 인터페이스
+
+    * 자료구조 리스트(배열, 연결리스트) 구현을 위한 인터페이스
+
+    * 중복 허용
+
+<br>
+
+* Set 인터페이스
+
+    * 순서와 관계없음, 정복 허용하지 않음, 유일한 값을 관리하는데 필요한 메서드 선언됨
+
+    * ex. 아이디, 주민번호, 사번 등 관리
+
+    * 저장된 순서와 출력되는 순서는 다를 수 있음
+
+<br>
+
+* Map 인터페이스
+
+    * 쌍으로 이루어진 객체를 관리하는데 사용하는 메서드들이 선언된 인터페이스
+
+    * 객체는 key-value의 쌍으로 이루어짐
+    
+    * key는 중복 허용하지 않음
+
+<br>
+
+<h3>11. 순차적으로 자료를 관리하는 List 인터페이스를 구현한 클래스와 그 활용
+
+<br>
+
+<h3>12. Collection 요소를 순회하는 Iterator</h3>
+
+* 요소의 순회란?
+
+    * 컬렉션 프레임워크에 저장된 요소들을 하나씩 차례대로 순회하는 것
+    
+    * 순서가 있는 List 인터페이스는 Iterator 사용하지 않고 get(i) 메서드 활용
+
+    * Set 인터페이스는 get(i) 메서드가 제공되지 않으므로 Iterator 활용하여 객체 순회
+
+<br>
+
+* Iterator 사용하기
+
+    * boolean hasNext() : 이후에 요소가 더 존재하는지 확인하는 메서드, 요소 존재 시 true 반환
+
+    * E next() : 다음 요소를 반환 
+
+    * 사용 예시
+
+```
+Iterator<Member> ir = arrayList.iterator();
+while(ir.hasNext()) {
+    Member member = ir.next();
+    int tempId = member.getMemberId();
+    System.out.println(tempId);    
+}
+```
+
+<br>
+
+<h3>13. 중복되지 않게 자료를 관리하는 Set 인터페이스를 구현한 클래스와 그 활용</h3>
+
+* HashSet 클래스
+
+    * <u>멤버의 중복 여부를 체크하기 위해 인스턴스의 동일성 확인 필요</u>
+
+    * 동일성 구현을 위해 equals()와 hashCode 메서드 재정의 필요
+
+```
+@Override
+public int hashCode() { return memberId; }
+
+@Override
+public boolean equals(Object obj) {
+    
+    if(obj instanceof Member) {
+        Member member = (Member)obj;
+        if(this.memberId == member.memberId) return true;
+        else return false;
+    }
+    return false;
+
+}
+```
+
+<br>
+
+<h3>14. 정렬을 위해 Comparable과 Comparator 인터페이스 구현하기</h3>
+
+* TreeSet 클래스 활용하기
+
+    * 객체의 정렬에 사용하는 클래스
+
+    * Set 인터페이스 구현 -> 중복 허용하지 않음, 오름차순/내림차순으로 객체 정렬 가능
+
+    * 내부적으로 이진검색트리(binary search tree)로 구현됨
+
+    * 이진검색트리에 저장하기 위해 각 객체 비교해야 함
+
+    * 비교 대상이 되는 객체에 Comparable이나 Comparator 인터페이스를 구현해야 TreeSet에 추가 가능
+
+    * String 클래스는 이미 Comparable 인터페이스가 구현되어 있음
+    
+    * 사용 예시
+
+```
+// Member.java
+public class Member implements Comparable<Member> {
+
+    @Override
+    public int compareTo(Member member) {
+        // return (this.memberId - member.memberId); // 오름차순
+        return (this.memberId - member.memberId) * (-1); // 내림차순
+    }
+
+}
+
+// ComparatorTest.java
+class MyCompare implements Comparator<String> {
+
+    @Override
+    public int compare(String s1, String s2) {
+        return (s1.compareTo(s2)) * (-1);
+    }
+    
+}
+
+public class ComparatorTest {
+
+    public static void main(String [] args) {
+        
+        Set<String> set = new TreeSet<String>(new MyCompare());
+        set.add("aaa"); 
+        set.add("bbb"); 
+        set.add("ccc");
+        System.out.println(set);
+    }
+    
+}
+```
+
+<br>
+
+<h3>15. 쌍(pair)로 자료 관리하는 Map 인터페이스를 구현한 클래스와 그 활용</h3>
+
+* HashMap 클래스 활용하기
+
+    * key와 value를 쌍으로 관리하는 메서드 구현
+
+    * 검색을 위한 자료구조
+
+    * key로 값을 저장하고, key로 값을 꺼내옴 (by hash 알고리즘)
+    
+    * key가 되는 객체는 중복 불가능, 객체의 유일성 비교를 위해 equals()와 hashCode() 메서드 구현해야 함
+
+<br>
+
+* TreeMap 클래스
+
+    * Map 인터페이스를 구현한 클래스
+
+    * key에 대한 정렬 구현 가능
+
+    * key가 되는 클래스에 Comparable이나 Comparator 인터페이스 구현함으로써 key-value 쌍의 자료를 key값 기준으로 정렬하여 관리 가능
+
+<br>

@@ -159,7 +159,8 @@
       <workItem from="1672276186580" duration="12867000" />
       <workItem from="1672363766615" duration="14332000" />
       <workItem from="1672582872380" duration="3035000" />
-      <workItem from="1672754640036" duration="2058000" />
+      <workItem from="1672754640036" duration="2751000" />
+      <workItem from="1672795911417" duration="1880000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -294,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672755658044</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Part2_Ch05.md edited">
+      <created>1672756716671</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672756716671</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
