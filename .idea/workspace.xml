@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;04 연결리스트 구현하기">
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;08 T extends 클래스 사용하기">
+      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_06/ReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_07/TravelCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_07/TravelCustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_1/ArrayIndexException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_1/AutoCloseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_1/AutoCloseableObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_1/FileExceptionHandling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_2/ThrowsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_10/PasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_10/PasswordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_11/LoggerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_11/MyLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part2_Ch05/_08/GenericPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch05/_08/GenericPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part2_Ch05/_08/Plastic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch05/_08/Plastic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part2_Ch05/_08/Powder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch05/_08/Powder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,13 +80,13 @@
       <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.GenericPrinterTest">
-    <configuration name="ArrayListStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._05.ArrayListStreamTest" />
+  <component name="RunManager" selected="애플리케이션.LoggerTest">
+    <configuration name="AutoCloseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._09._1.AutoCloseTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._05.*" />
+          <option name="PATTERN" value="Part2_Ch06._09._1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericPrinterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._08.GenericPrinterTest" />
+    <configuration name="FileExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._09._1.FileExceptionHandling" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._08.*" />
+          <option name="PATTERN" value="Part2_Ch06._09._1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntArrayStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._05.IntArrayStreamTest" />
+    <configuration name="LoggerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._11.LoggerTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._05.*" />
+          <option name="PATTERN" value="Part2_Ch06._11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayStackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch05._05.MyArrayStackTest" />
+    <configuration name="PasswordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._10.PasswordTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch05._05.*" />
+          <option name="PATTERN" value="Part2_Ch06._10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyNumberTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._03.MyNumberTest" />
+    <configuration name="ThrowsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._09._2.ThrowsException" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._03.*" />
+          <option name="PATTERN" value="Part2_Ch06._09._2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.GenericPrinterTest" />
-        <item itemvalue="애플리케이션.MyArrayStackTest" />
-        <item itemvalue="애플리케이션.ArrayListStreamTest" />
-        <item itemvalue="애플리케이션.IntArrayStreamTest" />
-        <item itemvalue="애플리케이션.MyNumberTest" />
+        <item itemvalue="애플리케이션.LoggerTest" />
+        <item itemvalue="애플리케이션.PasswordTest" />
+        <item itemvalue="애플리케이션.ThrowsException" />
+        <item itemvalue="애플리케이션.Part2_Ch06._09._1.AutoCloseTest" />
+        <item itemvalue="애플리케이션.Part2_Ch06._09.FileExceptionHandling" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +172,9 @@
       <workItem from="1672363766615" duration="14332000" />
       <workItem from="1672582872380" duration="3035000" />
       <workItem from="1672754640036" duration="2751000" />
-      <workItem from="1672795911417" duration="4340000" />
+      <workItem from="1672795911417" duration="7234000" />
+      <workItem from="1672832301480" duration="6361000" />
+      <workItem from="1672881327763" duration="3682000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -325,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672799270848</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Ch05&#10;08 T extends 클래스 사용하기">
+      <created>1672800381638</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1672800381638</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,6 +381,7 @@
     <MESSAGE value="Part2_Ch05.md added" />
     <MESSAGE value="Part2_Ch05.md edited" />
     <MESSAGE value="Ch05&#10;04 연결리스트 구현하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;04 연결리스트 구현하기" />
+    <MESSAGE value="Ch05&#10;08 T extends 클래스 사용하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;08 T extends 클래스 사용하기" />
   </component>
 </project>
