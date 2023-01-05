@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch05&#10;08 T extends 클래스 사용하기">
-      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_06/ReduceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_07/TravelCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_07/TravelCustomerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_1/ArrayIndexException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_1/AutoCloseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_1/AutoCloseableObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_1/FileExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_09/_2/ThrowsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_10/PasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_10/PasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_11/LoggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_11/MyLogger.java" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch06&#10;06 연산 수행에 대한 구현을 할 수 있는 reduce() 메서드&#10;07 스트림을 활용하여 패키지 여행 비용 계산하기&#10;08 예외처리는 왜 해야 하나 자바에서 제공되는 클래스들&#10;09 예외 처리하기와 미루기(1)&#10;09 예외 처리하기와 미루기(2)&#10;11 오류의 로그를 남기기 - java.util.logging.Logger 활용">
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_20/RunnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_20/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_21/JoinTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part2_Ch06/_22/SyncMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,26 +71,13 @@
       <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.LoggerTest">
-    <configuration name="AutoCloseTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._09._1.AutoCloseTest" />
+  <component name="RunManager" selected="애플리케이션.SyncMain">
+    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._21.JoinTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._09._1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._09._1.FileExceptionHandling" />
-      <module name="Java_Study_Web_Develop_Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part2_Ch06._09._1.*" />
+          <option name="PATTERN" value="Part2_Ch06._21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._10.PasswordTest" />
+    <configuration name="Part2_Ch06._20.ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._20.ThreadTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._10.*" />
+          <option name="PATTERN" value="Part2_Ch06._20.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,12 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._09._2.ThrowsException" />
+    <configuration name="RunnableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._20.RunnableTest" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._09._2.*" />
+          <option name="PATTERN" value="Part2_Ch06._20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._22.SyncMain" />
+      <module name="Java_Study_Web_Develop_Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part2_Ch06._22.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.SyncMain" />
+        <item itemvalue="애플리케이션.JoinTest" />
+        <item itemvalue="애플리케이션.RunnableTest" />
+        <item itemvalue="애플리케이션.Part2_Ch06._20.ThreadTest" />
         <item itemvalue="애플리케이션.LoggerTest" />
-        <item itemvalue="애플리케이션.PasswordTest" />
-        <item itemvalue="애플리케이션.ThrowsException" />
-        <item itemvalue="애플리케이션.Part2_Ch06._09._1.AutoCloseTest" />
-        <item itemvalue="애플리케이션.Part2_Ch06._09.FileExceptionHandling" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +165,8 @@
       <workItem from="1672754640036" duration="2751000" />
       <workItem from="1672795911417" duration="7234000" />
       <workItem from="1672832301480" duration="6361000" />
-      <workItem from="1672881327763" duration="3682000" />
+      <workItem from="1672881327763" duration="3983000" />
+      <workItem from="1672891967082" duration="5368000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -344,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672800381638</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Ch06&#10;06 연산 수행에 대한 구현을 할 수 있는 reduce() 메서드&#10;07 스트림을 활용하여 패키지 여행 비용 계산하기&#10;08 예외처리는 왜 해야 하나 자바에서 제공되는 클래스들&#10;09 예외 처리하기와 미루기(1)&#10;09 예외 처리하기와 미루기(2)&#10;11 오류의 로그를 남기기 - java.util.logging.Logger 활용">
+      <created>1672885533851</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672885533851</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +381,8 @@
     <MESSAGE value="Part2_Ch05.md edited" />
     <MESSAGE value="Ch05&#10;04 연결리스트 구현하기" />
     <MESSAGE value="Ch05&#10;08 T extends 클래스 사용하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch05&#10;08 T extends 클래스 사용하기" />
+    <MESSAGE value="Ch06&#10;06 연산 수행에 대한 구현을 할 수 있는 reduce() 메서드&#10;07 스트림을 활용하여 패키지 여행 비용 계산하기&#10;08 예외처리는 왜 해야 하나 자바에서 제공되는 클래스들&#10;09 예외 처리하기와 미루기(1)&#10;09 예외 처리하기와 미루기(2)&#10;11 오류의 로그를 남기기 - java.util.loggin.Logger 활용" />
+    <MESSAGE value="Ch06&#10;06 연산 수행에 대한 구현을 할 수 있는 reduce() 메서드&#10;07 스트림을 활용하여 패키지 여행 비용 계산하기&#10;08 예외처리는 왜 해야 하나 자바에서 제공되는 클래스들&#10;09 예외 처리하기와 미루기(1)&#10;09 예외 처리하기와 미루기(2)&#10;11 오류의 로그를 남기기 - java.util.logging.Logger 활용" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch06&#10;06 연산 수행에 대한 구현을 할 수 있는 reduce() 메서드&#10;07 스트림을 활용하여 패키지 여행 비용 계산하기&#10;08 예외처리는 왜 해야 하나 자바에서 제공되는 클래스들&#10;09 예외 처리하기와 미루기(1)&#10;09 예외 처리하기와 미루기(2)&#10;11 오류의 로그를 남기기 - java.util.logging.Logger 활용" />
   </component>
 </project>
