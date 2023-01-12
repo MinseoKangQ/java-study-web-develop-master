@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part2_Ch06.md added">
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part2_Ch06.md edited">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Part2_Ch06/Part2_Ch06.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch06/Part2_Ch06.md" afterDir="false" />
     </list>
@@ -167,7 +167,7 @@
       <workItem from="1672978956705" duration="7154000" />
       <workItem from="1673069713511" duration="6000" />
       <workItem from="1673410620161" duration="6587000" />
-      <workItem from="1673498674934" duration="1992000" />
+      <workItem from="1673498674934" duration="4695000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -372,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673417363733</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Part2_Ch06.md edited">
+      <created>1673500679365</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1673500679365</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,7 +397,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ch03&#10;01 객체 간의 상속은 어떤 의미일까&#10;02 상속을 활용한 멤버쉽 클래스 구현하기" />
     <MESSAGE value="Ch03&#10;03 상속에서 클래스 생성 과정과 형 변환&#10;04 메서드 재정의하기(overriding)" />
     <MESSAGE value="Ch03&#10;05 메서드 재정의와 가상 메서드 원리&#10;06 다형성과 다형성을 사용하는 이유&#10;07 상속은 언제 사용 할까&#10;08 다운 캐스팅과 instanceof&#10;09 추상 클래스의 의미와 구현하는 방법" />
     <MESSAGE value="Ch03 &amp; 파일 구조 정리&#10;10 추상 클래스를 활용한 템플릿 메서드 패턴&#10;11 구현 코드가 없는 인터페이스&#10;12 인터페이스는 왜 사용하는가&#10;13 프로그램에서 인터페이스의 역할과 다형성&#10;14 인터페이스의 여러가지 요소&#10;15 여러 인터페이스 구현하기, 인터페이스의 상속" />
@@ -415,6 +421,7 @@
     <MESSAGE value="Ch06&#10;23 wait(), notify() 메서드를 활용한 동기화 프로그래밍" />
     <MESSAGE value="단축키 연습" />
     <MESSAGE value="Part2_Ch06.md added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part2_Ch06.md added" />
+    <MESSAGE value="Part2_Ch06.md edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part2_Ch06.md edited" />
   </component>
 </project>
