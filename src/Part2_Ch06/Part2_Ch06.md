@@ -404,3 +404,165 @@ public static PrintString returnString() {
 PrintString reStr = returnString();
 reStr.showString("hello");
 ```
+
+<br>
+
+<h3>05. 스트림(Stream)</h3>
+
+* 스트림이란?
+
+  * <u><b>자료의 대상관 관계없이 동일한 연산을 수행</b></u>
+  
+    * 배열, 컬렉션을 대상으로 연산 수행
+
+    * 일관성 있는 연산으로 자료 처리를 쉽고 간단히 함
+
+    * 자료 처리에 대한 추상화가 구현되었음
+
+  * <u><b>한 번 생성하고 사용한 스트림은 재사용 불가능</b></u>
+  
+    * 자료에 대한 스트림 생성하여 연산 수행 시 스트림은 소모됨
+
+    * 다른 연산 수행하려면 스트림을 다시 생성해야함
+
+  * <u><b>스트림 연산은 기존 자료를 변경하지 않음</b></u>
+
+    * 자료에 대한 스트림 생성 시 스트림이 사용하는 메모리 공간은 별도로 생성됨
+
+    * 연산이 수행되어도 기존 자료에 대한 변경은 발생하지 않음
+
+  * <u><b>스트림 연산 = 중간 연산 / 최종 연산</b></u>
+
+    * 중간 연산은 여러 개의 연산 적용 가능
+    
+    * 최종 연산은 마지막에 한 번만 적용됨
+
+    * 최종 연산이 호출되어야 중간 연산에 대한 수행이 이뤄지고 결과가 만들어짐
+
+    * 중간 연산에 대한 결과를 연산 중에 알 수 없음 = 지연 연산
+
+<br>
+
+* 스트림 생성 및 사용
+
+```
+public class IntArrayTest {
+
+  public static void main(String [] args) {
+    
+    int [] arr = { 1, 2, 3, 4, 5 };
+    
+    int sumVal = Arrays.stream(arr).sum();
+    long count = Arrays.stream(arr).count();
+    
+    System.out.println(sumVal);
+    System.out.println(count);
+    
+  }
+
+}
+```
+
+<br>
+
+* 중간 연산과 최종 연산
+
+  * 중간 연산과 최종 연산에 대한 구현은 람다식 활용 
+
+  * 중간 연산
+    
+    * ex) filter()(조건에 맞는 요소 추출), map()(요소 변환), sorted() 등
+
+    * 최종 연산이 호출될 때 중간 연산이 수행, 이후 결과가 생성
+
+  * 최종 연산
+
+    * ex) forEach(), count(), sum() 등
+
+    * 스트림이 관리하는 자료를 하나씩 소모해가며 연산 수행
+
+    * 최종 연산 후에 스트림은 더 이상 다른 연산 적용 불가능
+
+```
+// 문자열 리스트에서 문자열의 길이가 5 이상인 요소 출력
+sList.stream().filter(s->s.length() >= 5).forEach(s->System.out.print(s + " "));
+
+// 고객 클래스 배열에서 고객 이름만 출력
+customerList.stream().map(c->c.getName()).forEach(s->System.out.println(s));
+```
+
+<br>
+
+* ArrayList 객체에 스트림 생성하고 사용하기
+
+```
+public class ArrayListStreamTest {
+
+  public static void main(String [] args) {
+    
+    List<String> sList = new ArrayList<String>();
+    sList.add("A");
+    sList.add("CABCDDD");
+    sList.add("BBBF);
+    
+    Stream<String> stream = sList.stream();
+    stream.forEach(s->System.out.print(s + " "));
+    System.out.println();
+    
+    sList.stream().sorted().forEach(s->System.out.println(s + " "));
+    sList.stream().map(s->s.length()).forEach(n->System.out.println(n));
+    sList.stream().filter(s->s.length() >= 5).forEach(n->System.out.println(n));
+    
+   }
+   
+}
+```
+
+<br>
+
+```
+
+public class IntArrayStreamTest {
+
+  public static void main(String [] args) {
+  
+    int [] arr = { 1, 2, 3, 4, 5 };
+    Arrays.stream(arr).forEach(n->System.out.println(n + " "));
+    
+    int sum = Arrays.stream(arr).sum();
+    System.out.println(sum);
+    
+    List<Integer> list = new ArrayList<Integer>();
+    list.add(1);
+    list.add(2);
+    list.add(3);
+    list.add(4);
+    list.add(5);
+    
+    int sum2 = list.stream().mapToInt(n->n.intValue()).sum();
+    System.out.println(sum2);
+  
+  }
+
+}
+```
+
+<h3>06. 연산 수행에 대한 구현을 할 수 있는 reduce() 연산</h3>
+
+* reduce() 연산
+
+  * 정의된 연산이 아닌 프로그래머가 직접 구현한 연산 적용
+
+  * 최종 연산으로 스트림의 요소를 소모하여 연산 수행
+
+  * reduce() 메서드의 두 번째 요소로 전달되는 람다식에 따라 다양한 기능 수행 가능
+
+  * 람다식을 직접 구현하거나 람다식이 긴 경우 BinaryOperator를 구현한 클래스 사용
+
+  ```
+  T reduce(T identify, BinaryOperator<T> accumulator)
+  
+  // 배열의 모든 요소의 합을 구하는 연산
+  Arrays.stream(arr).reduce(0, (a,b)->a+b));
+  ```
+  
