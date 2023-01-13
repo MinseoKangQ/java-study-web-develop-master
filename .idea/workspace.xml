@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part2_Ch06.md edited">
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_02_Singleton/AClazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_02_Singleton/BClazz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_02_Singleton/SocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_02_Singleton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_03_Adapter/AirConditioner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_03_Adapter/Cleaner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_03_Adapter/Electronic110V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_03_Adapter/Electronic220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_03_Adapter/HairDryer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_03_Adapter/SocketAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_03_Adapter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_04_Proxy/AOP/AopBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_04_Proxy/AOP/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_04_Proxy/Cache/Browser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_04_Proxy/Cache/BrowserProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_04_Proxy/Cache/Html.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_04_Proxy/Cache/IBrowser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_04_Proxy/Cache/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part2_Ch06/Part2_Ch06.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part2_Ch06/Part2_Ch06.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,26 +79,14 @@
       <recent name="$PROJECT_DIR$/src/Part2_Ch03/Ch13/userInfo/web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Part3_Ch02._03_Adapter" />
       <recent name="Part2_Ch05._15" />
       <recent name="Part2_Ch05._08" />
       <recent name="Part2_Ch05._07.NonGeneric" />
       <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.LibraryMain">
-    <configuration name="JoinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._21.JoinTest" />
-      <module name="Java_Study_Web_Develop_Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part2_Ch06._21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.Part3_Ch02._04_Proxy.AOP.Test">
     <configuration name="LibraryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part2_Ch06._23.LibraryMain" />
       <module name="Java_Study_Web_Develop_Master" />
@@ -95,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part2_Ch06._20.ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._20.ThreadTest" />
+    <configuration name="Part3_Ch02._03_Adapter.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._03_Adapter.Test" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._20.*" />
+          <option name="PATTERN" value="Part3_Ch02._03_Adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._20.RunnableTest" />
+    <configuration name="Part3_Ch02._04_Proxy.AOP.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._04_Proxy.AOP.Test" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._20.*" />
+          <option name="PATTERN" value="Part3_Ch02._04_Proxy.AOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +126,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SyncMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._22.SyncMain" />
+    <configuration name="Part3_Ch02._04_Proxy.Cache.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._04_Proxy.Cache.Test" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part2_Ch06._22.*" />
+          <option name="PATTERN" value="Part3_Ch02._04_Proxy.Cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._02_Singleton.Test" />
+      <module name="Java_Study_Web_Develop_Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part3_Ch02._02_Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Part3_Ch02._04_Proxy.AOP.Test" />
+        <item itemvalue="애플리케이션.Part3_Ch02._04_Proxy.Cache.Test" />
+        <item itemvalue="애플리케이션.Part3_Ch02._03_Adapter.Test" />
+        <item itemvalue="애플리케이션.Part3_Ch02._02_Singleton.Test" />
         <item itemvalue="애플리케이션.LibraryMain" />
-        <item itemvalue="애플리케이션.SyncMain" />
-        <item itemvalue="애플리케이션.JoinTest" />
-        <item itemvalue="애플리케이션.RunnableTest" />
-        <item itemvalue="애플리케이션.Part2_Ch06._20.ThreadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +185,8 @@
       <workItem from="1672978956705" duration="7154000" />
       <workItem from="1673069713511" duration="6000" />
       <workItem from="1673410620161" duration="6587000" />
-      <workItem from="1673498674934" duration="4695000" />
+      <workItem from="1673498674934" duration="4748000" />
+      <workItem from="1673574178176" duration="2954000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -379,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673500679365</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Part2_Ch06.md edited">
+      <created>1673503383837</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1673503383837</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
