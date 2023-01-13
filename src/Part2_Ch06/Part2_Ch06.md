@@ -736,3 +736,133 @@ public class IntArrayStreamTest {
   * 오픈소스로 log4j 많이 사용함
 
 <br>
+
+<h3>20. 자바에서 Thread 만들기</h3>
+
+* Thread란?
+
+  * Process : 실행 중인 프로그램이 실행되면 OS로부터 메모리 할당받아 프로세스 상태가 됨
+
+  * Thread : 하나의 프로세스는 하나 이상의 Thread 가짐, 실제 작업의 수행 단위는 Thread
+
+<br>
+
+* multi-threading
+
+  * 여러 Thread가 동시에 수행되는 프로그래밍
+
+  * 여러 작업이 동시에 실행되는 효과
+
+  * Thread는 자신만의 작업 공간을 가짐 -> context
+
+  * 각 Thread에서 공유하는 자원 존재 가능 (ex. static instance)
+  
+  * Race condition 발생 가능 (여러 Thread가 자원을 공유하여 작업이 수행되는 경우 자원을 서로 차지하려고 하는 것)
+
+  * 여러 Thread가 공유하는 자원 중 경쟁이 발생하는 부분 = critical section
+  
+  * Critical section에 대한 동기화(순차적 수행) 구현하지 않으면 오류 발생 가능성 존재
+
+<br>
+
+* 자바 Thread 만들기
+
+  * Thread 클래스 상속하여 만들기
+
+  * Runnable 인터페이스 구현하여 만들기 (이미 다른 클래스를 상속한 경우 사용 - 자바는 다중 상속 허용하지 않기 때문)
+
+<br>
+
+<h3>21. Thread 클래스의 여러 메서드들</h3>
+
+* Thread 우선순위
+
+  * Thread.MIN_PRIORITY(=1) ~ Thread.MAX_PRIORITY(=10)
+
+  * 디폴트 우선순위 : Thread.NORMAL_PRIORITY(=5)
+
+  * 우선 순위가 높은 Thread가 CPU 배분을 받을 확률이 높음 (<u>but, 보장하지는 않음</u>)
+
+  * setPriority()/getPriority()
+
+<br>
+
+* <b><u>join()</u></b>
+
+  * 동시에 두 개 이상의 Thread 실행 시 다른 Thread 결과를 참조하여 실행할 경우 사용
+
+  * join() 함수를 호출한 Thread가 not-runnable 상태가 됨
+
+  * 다른 Thread의 수행이 끝나면 runnable 상태로 돌아옴 
+
+<br>
+
+* <b><u>interrupt()</u></b>
+
+  * 다른 Thread에 예외를 발생시키는 interrupt 보냄
+
+  * Thread가 join()/sleep()/wait() 에 의해 not-runnable 상태일 경우 interrupt() 호출하면 다시 runnable 상태가 될 수 있음
+
+<br>
+
+* Thread 종료하기
+
+  * 무한 반복일 경우 while(flag)의 flag 변수 값을 false로 바꾸어 종료
+
+<br>
+
+<h3>22. 멀티 Thread 프로그래밍에서의 동기화</h3>
+
+* Critical Section과 Semaphore
+
+  * Critical Section : 두 개 이상의 Thread가 동시에 접근하는 경우 문제 발생 가능성이 있기 때문에 동시에 접근이 불가능한 영역
+
+  * Semaphore : 특별한 형태의 시스템 객체, get/release 두 개의 기능
+
+  * 한 순간 단 하나의 Thread만 semaphore 얻을 수 있고, critical section에 들어갈 수 있음
+
+  * 나머지 Thread들은 대기(blocking) 상태가 됨
+
+<br>
+
+* <b><u>동기화(synchronization)</u></b>
+
+  * 두 개의 Thread가 같은 객체에 접근할 경우, 동시에 접근하면 오류 발생
+
+  * 동기화는 임계영역에 접근한 경우 공유자원을 lock -> 다른 Thread 접근을 제어
+
+  * 동기화 잘못 구현 시 deadlock 가능성 존재
+
+<br>
+
+* synchronized 메서드나 synchronized 블럭 사용
+
+  * synchronized 블럭 : 현재 객체 또는 다른 객체를 lock
+  
+  ```
+  synchronized(참조형 수식) { 수행문; }
+  ```
+  
+  * synchronized 메서드
+  
+    * 객체의 메서드에 synchronized 키워드 사용
+
+    * 현재 해당 메서드가 속해있는 객체에 lock
+
+    * 되도록 synchronized 메서드에서 다른 synchronized 메서드는 호출하지 않도록 해야함
+
+<br>
+
+<h3>23. wait()/notify() 메서드를 활용한 동기화 프로그래밍</h3>
+
+* 리소스가 어떤 조건에서 더 이상 유효하지 않은 경우, 리소스를 기다리기 위해 Thread가 wait 상태가 됨
+
+* wait() 상태가 된 Thread는 notify()가 호출될 때 까지 기다림
+
+* 유효한 자원이 생기면 notify()가 호출되고 wait() 상태인 Thread 중 무작위로 하나의 Thread 재시작
+
+* notifyAll() 호출되는 경우 wait() 하고 있는 모든 Thread가 재시작 됨
+
+* 유효한 리소스만큼의 Thread만 수행될 수 있고 자원을 갖지 못한 Thread는 다시 wait() 상태가 됨
+
+* <b><u>자바에서는 notifyAll() 메서드 사용 권장</u></b>
