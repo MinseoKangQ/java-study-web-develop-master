@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch 02&#10;02 싱글톤 패턴&#10;03 어댑터 패턴&#10;04 프록시 패턴">
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Ch 02&#10;02 싱글톤 패턴 edited">
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_05_Decorator/A3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_05_Decorator/A4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_05_Decorator/A5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_05_Decorator/Audi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_05_Decorator/AudiDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_05_Decorator/ICar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_05_Decorator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_06_Observer/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_06_Observer/IButtonListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_06_Observer/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_07_Facade/Ftp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_07_Facade/Reader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_07_Facade/SftpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_07_Facade/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_07_Facade/Writer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_08_Strategy/AppendStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_08_Strategy/Base64Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_08_Strategy/Encoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_08_Strategy/EncodingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_08_Strategy/NormalStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/_08_Strategy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Part3_Ch02/_02_Singleton/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Part3_Ch02/_02_Singleton/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,40 +82,14 @@
       <recent name="$PROJECT_DIR$/src/Part2_Ch03/Ch13/userInfo/web" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Part3_Ch02._05_Decorator" />
       <recent name="Part3_Ch02._03_Adapter" />
       <recent name="Part2_Ch05._15" />
       <recent name="Part2_Ch05._08" />
       <recent name="Part2_Ch05._07.NonGeneric" />
-      <recent name="Part2_Ch03._14" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Part3_Ch02._02_Singleton.Test">
-    <configuration name="LibraryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part2_Ch06._23.LibraryMain" />
-      <module name="Java_Study_Web_Develop_Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part2_Ch06._23.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Part3_Ch02._03_Adapter.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._03_Adapter.Test" />
-      <module name="Java_Study_Web_Develop_Master" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Part3_Ch02._03_Adapter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.Part3_Ch02._08_Strategy.Test">
     <configuration name="Part3_Ch02._04_Proxy.AOP.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Part3_Ch02._04_Proxy.AOP.Test" />
       <module name="Java_Study_Web_Develop_Master" />
@@ -109,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Part3_Ch02._04_Proxy.Cache.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._04_Proxy.Cache.Test" />
+    <configuration name="Part3_Ch02._05_Decorator.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._05_Decorator.Test" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part3_Ch02._04_Proxy.Cache.*" />
+          <option name="PATTERN" value="Part3_Ch02._05_Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +116,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._02_Singleton.Test" />
+    <configuration name="Part3_Ch02._06_Observer.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._06_Observer.Test" />
       <module name="Java_Study_Web_Develop_Master" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Part3_Ch02._02_Singleton.*" />
+          <option name="PATTERN" value="Part3_Ch02._06_Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part3_Ch02._07_Facade.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._07_Facade.Test" />
+      <module name="Java_Study_Web_Develop_Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part3_Ch02._07_Facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Part3_Ch02._08_Strategy.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Part3_Ch02._08_Strategy.Test" />
+      <module name="Java_Study_Web_Develop_Master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Part3_Ch02._08_Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Part3_Ch02._02_Singleton.Test" />
+        <item itemvalue="애플리케이션.Part3_Ch02._08_Strategy.Test" />
+        <item itemvalue="애플리케이션.Part3_Ch02._07_Facade.Test" />
+        <item itemvalue="애플리케이션.Part3_Ch02._06_Observer.Test" />
+        <item itemvalue="애플리케이션.Part3_Ch02._05_Decorator.Test" />
         <item itemvalue="애플리케이션.Part3_Ch02._04_Proxy.AOP.Test" />
-        <item itemvalue="애플리케이션.Part3_Ch02._04_Proxy.Cache.Test" />
-        <item itemvalue="애플리케이션.Part3_Ch02._03_Adapter.Test" />
-        <item itemvalue="애플리케이션.LibraryMain" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +189,7 @@
       <workItem from="1673069713511" duration="6000" />
       <workItem from="1673410620161" duration="6587000" />
       <workItem from="1673498674934" duration="4748000" />
-      <workItem from="1673574178176" duration="3637000" />
+      <workItem from="1673574178176" duration="9393000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -395,7 +415,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673577348557</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Ch 02&#10;02 싱글톤 패턴 edited">
+      <created>1673577858753</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1673577858753</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -413,7 +440,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Ch03&#10;05 메서드 재정의와 가상 메서드 원리&#10;06 다형성과 다형성을 사용하는 이유&#10;07 상속은 언제 사용 할까&#10;08 다운 캐스팅과 instanceof&#10;09 추상 클래스의 의미와 구현하는 방법" />
     <MESSAGE value="Ch03 &amp; 파일 구조 정리&#10;10 추상 클래스를 활용한 템플릿 메서드 패턴&#10;11 구현 코드가 없는 인터페이스&#10;12 인터페이스는 왜 사용하는가&#10;13 프로그램에서 인터페이스의 역할과 다형성&#10;14 인터페이스의 여러가지 요소&#10;15 여러 인터페이스 구현하기, 인터페이스의 상속" />
     <MESSAGE value="Part2_Ch02.md added" />
     <MESSAGE value="Part2_Ch02.md edited" />
@@ -438,6 +464,7 @@
     <MESSAGE value="Part2_Ch06.md added" />
     <MESSAGE value="Part2_Ch06.md edited" />
     <MESSAGE value="Ch 02&#10;02 싱글톤 패턴&#10;03 어댑터 패턴&#10;04 프록시 패턴" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ch 02&#10;02 싱글톤 패턴&#10;03 어댑터 패턴&#10;04 프록시 패턴" />
+    <MESSAGE value="Ch 02&#10;02 싱글톤 패턴 edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ch 02&#10;02 싱글톤 패턴 edited" />
   </component>
 </project>
