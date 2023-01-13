@@ -12,6 +12,13 @@ public class Test {
 
         System.out.println("두 개의 객체가 동일한가?");
         System.out.println(aClient.equals(bClient));
+
+        System.out.println(aClazz);
+        System.out.println(bClazz);
+
+        System.out.println(aClient);
+        System.out.println(bClient);
+
     }
 
 }
