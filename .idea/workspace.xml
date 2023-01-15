@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part3_Ch01.md edited">
-      <change afterPath="$PROJECT_DIR$/src/Part3_Ch02/Part3_Ch02.md" afterDir="false" />
+    <list default="true" id="682835b6-3256-4bde-b4d7-8ecea2775f82" name="변경" comment="Part3_Ch02.md added">
+      <change afterPath="$PROJECT_DIR$/src/Part3_Ch03/Part3_Ch03.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +172,8 @@
       <workItem from="1673574178176" duration="12826000" />
       <workItem from="1673705715941" duration="2675000" />
       <workItem from="1673713400713" duration="175000" />
-      <workItem from="1673763868664" duration="1782000" />
+      <workItem from="1673763868664" duration="3123000" />
+      <workItem from="1673793626800" duration="3746000" />
     </task>
     <task id="LOCAL-00001" summary="Ch02&#10;20 자료를 순차적으로 한꺼번에 관리하는 방법 - 배열&#10;21 객체 배열 사용하기&#10;22 2차원 배열 사용하기&#10;23 객체 배열을 구현한 클래스&#10;24 ArrayList를 활용한 간단한 성적 산출 프로그램">
       <created>1671677448257</created>
@@ -433,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673707991159</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Part3_Ch02.md added">
+      <created>1673765712228</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1673765712228</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Part2_Ch03.md added" />
     <MESSAGE value="Part2_Ch03.md edited" />
     <MESSAGE value="Ch04&#10;01 Object 클래스 - 모든 클래스의 최상위 클래스&#10;02 Object 클래스의 메서드 활용&#10;03 String, StringBuilder, StringBuffer 클래스, text block&#10;04 클래스 사용하기" />
     <MESSAGE value="Ch05&#10;03 배열 구현하기&#10;04 연결리스트 구현하기&#10;05 Stack 구현하기&#10;06 Queue 구현하기" />
@@ -476,6 +483,7 @@
     <MESSAGE value="Part2_Ch06.md edited" />
     <MESSAGE value="Part3_Ch0₩.md added" />
     <MESSAGE value="Part3_Ch01.md edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part3_Ch01.md edited" />
+    <MESSAGE value="Part3_Ch02.md added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part3_Ch02.md added" />
   </component>
 </project>
